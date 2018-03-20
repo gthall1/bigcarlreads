@@ -3157,16 +3157,15 @@
 
 @media screen and (max-width: 980px) {
 
-		/* Basic */
 
-			.phonemocks {
-				max-width: 90% !important;
-		    padding-bottom: 3em !important;
-		    float: none !important;
-		    display: block !important;
-		    margin: auto !important;
-			}
-		}
+	.phonemocks {
+		max-width: 90% !important;
+	    padding-bottom: 3em !important;
+	    float: none !important;
+	    display: block !important;
+	    margin: auto !important;
+	}
+}
 
 
 
@@ -3185,7 +3184,15 @@
 
 
 
+/* responsive review */
 
+.carlygif {
+	width: 50%;
+}
+
+#main {
+	padding-top: 4em;
+}
 
 
 
