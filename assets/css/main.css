@@ -2481,7 +2481,8 @@
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll, fixed;
-		background-image: url("images/overlay.png"), url("../../images/bg6.jpg");
+		/* background-image: url("images/overlay.png"), url("../../images/possibly_1.png"); */
+		background-image: url("../../images/possibly_1.png");
 		background-position: top left, top left;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, auto;
@@ -3188,7 +3189,18 @@
 
 .carlygif {
 	width: 50%;
+	margin-left: 225px;
 }
+
+.yesyoucan {
+	text-align: center;
+}
+
+
+
+
+
+
 
 #main {
 	padding-top: 4em;
