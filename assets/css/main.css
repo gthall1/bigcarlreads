@@ -2034,6 +2034,14 @@
 				content: 'View Design' !important;
 			}
 
+			.viewpicture:after {
+				content: 'View Picture' !important;
+			}
+
+			.readnote:after {
+				content: 'Read Note' !important;
+			}
+
 			.image.thumb:hover:after {
 				opacity: 1.0;
 			}
