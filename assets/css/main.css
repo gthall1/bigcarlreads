@@ -2896,14 +2896,51 @@
 
 /* Large */
 
-	@media screen and (max-width: 1280px) {
+	
+
+#six {
+		padding-bottom: 3em !important;
+	}
+
+
+
+
+
+
+.carlygif {
+	width: 50%;
+	margin-left: 225px;
+}
+
+.yesyoucan {
+	text-align: center;
+}
+
+
+
+
+
+
+
+#main {
+	padding-top: 4em;
+}
+
+
+/* responsive review */
+
+
+
+@media screen and (max-width: 1280px) {
 
 		/* Header */
 
 			#header {
 				padding: 6em 3em 3em 3em;
 				width: 30%;
-				background-image: url("images/overlay.png"), url("../../images/bg2.jpg");
+				/* background-image: url("images/overlay.png"), url("../../images/bg2.jpg"); */
+				background-image: url("../../images/possibly_5.png");
+				background-position-x: -75px;
 			}
 
 				#header h1 {
@@ -2939,9 +2976,40 @@
 
 	}
 
+
+@media screen and (max-width: 1080px) {
+
+	#header {
+	    background-attachment: scroll;
+	    background-size: cover !important;
+	    background-repeat: no-repeat;
+	    background-position-x:  -170px !important;
+	}
+
+	.carlygif {
+		margin-left: 157px;
+	}
+
+
+
+}
+
 /* Medium */
 
 	@media screen and (max-width: 980px) {
+
+		#header {
+			display: none !important;
+		}
+
+		.carlygif {
+			width: 65%;
+			margin-left: 110px;
+		}
+
+		#footer {
+			display: none !important;
+		}
 
 		/* Basic */
 
@@ -3106,6 +3174,8 @@
 
 		/* List */
 
+
+
 			ul.actions {
 				margin: 0 0 2em 0;
 			}
@@ -3158,6 +3228,23 @@
 				padding-left: 0;
 			}
 
+
+
+			.carlygif {
+				margin-left: auto;
+				margin-right: auto;
+				width: 80%;
+			}
+
+	}
+
+
+	@media screen and (max-width: 380px) {
+
+		.carlygif {
+			width: 90%;
+		}
+
 	}
 
 
@@ -3185,41 +3272,6 @@
 				margin-bottom: -4em !important;
 			}
 		}
-
-#six {
-		padding-bottom: 3em !important;
-	}
-
-
-
-
-/* responsive review */
-
-.carlygif {
-	width: 50%;
-	margin-left: 225px;
-}
-
-.yesyoucan {
-	text-align: center;
-}
-
-
-
-
-
-
-
-#main {
-	padding-top: 4em;
-}
-
-
-
-
-
-
-
 
 
 
